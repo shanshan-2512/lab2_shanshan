@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "set PORT=8080 & SET DEBUG=lab2-shanshan:* & npm start"
+    "dev": "set PORT=8080 & SET DEBUG=lab2-shanshan:* & nodemon start"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
